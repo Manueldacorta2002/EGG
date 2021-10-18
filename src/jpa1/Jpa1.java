@@ -26,6 +26,7 @@ public class Jpa1 {
    public static void main(String[] args) {
        
        Scanner leer = new Scanner(System.in); 
+       System.out.println("Bienvenido");
         try {
             
             EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa1PU"); // este objeto me permite hacer uso de las funciones que me conectan a la base de datos
